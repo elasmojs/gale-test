@@ -13,12 +13,12 @@ var parts = [
     {
         "type":"text",
         "name":"firstname",
-        "value":"Vignesh"
+        "value":"John"
     },
     {
         "type":"text",
         "name":"lastname",
-        "value":"Swaminathan"
+        "value":"Doe"
     },
     {
         "type":"file",
@@ -39,5 +39,5 @@ if(sresp != null){
     resp.msg = "Could not fire HTTP POST request";
 }
 
-$r.response.headers["content-type"] = "application/json";
-$r.response.body = JSON.stringify(resp);
+$g.response.headers["content-type"] = "application/json";
+$g.response.body = JSON.stringify(resp);

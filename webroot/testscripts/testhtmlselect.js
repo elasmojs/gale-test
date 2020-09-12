@@ -21,7 +21,7 @@ if(doc != null){
         results.name = elem.name();
         
         //html
-        results.select = elem.html();
+        results.html = elem.html();
 
         var liElems = elem.select("li");
         if(liElems != null){
@@ -191,8 +191,8 @@ if(doc != null){
     resp.msg = "Could not parse HTML";
 }
 
-$r.response.headers["content-type"] = "application/json";
-$r.response.body = JSON.stringify(resp, true);
+$g.response.headers["content-type"] = "application/json";
+$g.response.body = JSON.stringify(resp, true);
 
 
 
