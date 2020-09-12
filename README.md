@@ -1,7 +1,7 @@
 <img src="./webroot/rooster.png" href="http://icons8.com/" alt="Gale Application Server" width="128"/>
 
 # Gale Samples Repository
- Sample scripts to exercise [Gale](https://github.com/elasmojs/gale). Gale is a small footprint, batteries included Javascript application server built with Rust. It comes along with an out of box Javascript support along with default set of commonly used APIs. It is currently just a single executable of about ~6 MB in size with zero dependencies.
+Sample scripts to exercise [Gale](https://github.com/elasmojs/gale). Gale JS is small footprint, batteries included application server built with Rust. Gale JS has out of box Javascript server scripting along with default set of commonly used APIs. It is currently just a single executable of about ~6 MB in size with zero dependencies.
 
 ## Installation
 - Windows 64
